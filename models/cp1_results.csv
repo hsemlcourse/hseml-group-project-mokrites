@@ -1,0 +1,3 @@
+model_id,model_name,feature_set,num_features,macro_f1_val,weighted_f1_val,accuracy_val,note
+random_forest_exp,RandomForestClassifier,with_engineering,12,0.9757576207676566,0.9790264523161706,0.9791333333333333,Lightweight CP1 experiment with a tree model.
+baseline_logreg,LogisticRegression,base,8,0.9507556919123118,0.9567744309722953,0.9571333333333333,CP1 baseline without using engineered features.
